@@ -14,7 +14,7 @@ TJSP (DEJESP)
      ↓
   Indexador     → indexa no OpenSearch com analyzer PT-BR
      ↓
-  OpenSearch Dashboards → interface de busca
+  Streamlit Dashboard → interface de busca
 ```
 
 ## Stack
