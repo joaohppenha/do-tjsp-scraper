@@ -75,6 +75,18 @@ curl -X GET "http://localhost:9200/dje-tjsp/_search?pretty" \
   }'
 ```
 
+### 5. Buscador
+Interface gráfica de Busca no Streamlit. Esta ferramenta permite explorar publicações do DJE-TJSP através de uma interface intuitiva:
+    Busca Full-Text: Consultas rápidas em todo o corpo das publicações.
+    Filtros Temporais: Refino de resultados por data inicial e final.
+    Destaque de Termos: Visualização imediata do contexto onde a palavra-chave aparece.
+    Escalabilidade: Integração com OpenSearch para lidar com grandes volumes de dados indexados.
+    <div align="center">
+  <img src="buscador.png" alt="Interface do Buscador" width="800px">
+</div>
+
+
+
 ## Campos indexados
 
 | Campo | Tipo | Descrição |
