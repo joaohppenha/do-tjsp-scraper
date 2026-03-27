@@ -31,10 +31,8 @@ do-tjsp-scraper/
 ├── coletor/        # Download dos PDFs do DEJESP
 ├── parser/         # Extração de texto e metadados
 ├── indexador/      # Indexação no OpenSearch
-├── data/
-│   ├── pdfs/       # PDFs baixados
-│   └── textos/     # JSONs extraídos
 ├── pipeline.py     # Orquestração completa
+├── app.py          # Interface gráfica do buscador de Termos
 └── docker-compose.yml
 ```
 
