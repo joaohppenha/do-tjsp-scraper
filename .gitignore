@@ -1,0 +1,19 @@
+# Ambiente
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Dados
+data/pdfs/
+data/textos/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
